@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+    <style type="text/css">
+      .headerApp{
+        background-color: #3b82f6; 
+        padding: 10px;
+      }
+
+      .h1App{
+        text-align: center;
+      }
+
+      .divRegister, .divLogin{
+        max-width: 28rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        background-color: white;
+        padding: 32px;
+        border: 1px solid #d1d5db;
+        border-radius: 8px;
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .h2Register, .h2Login, .h2List{
+        font-size: 1.5rem; 
+        font-weight: bold; 
+        margin-bottom: 24px; 
+        text-align: center; 
+        color: #2d3748; 
+      }
+
+      .formRegister, .formLogin{
+        display: flex;
+        flex-direction: column; 
+        gap: 20px;
+      }
+
+      .inputRegister, .inputLogin{
+        width: 100%; 
+        padding-left: 0.75rem; 
+        padding-right: 0.75rem; 
+        padding-top: 0.5rem; 
+        padding-bottom: 0.5rem;
+        border: 1px solid #d1d5db; 
+        border-radius: 0.375rem;
+      }
+
+      .inputRegister:focus, .inputLogin:focus{
+        outline: none;
+      }
+
+      .buttonRegister, .buttonLogin, .buttonList{
+        width: 100%; 
+        background-color: #3b82f6; 
+        color: white; 
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem; 
+        padding-left: 1rem; 
+        padding-right: 1rem;
+        border-radius: 0.375rem;
+      }
+
+      .buttonRegister:hover, .buttonLogin:hover, .buttonList:hover{
+        background-color: #60a5fa; 
+      }
+
+      .linkList{
+        color: black;
+      }
+
+      .linkRegister, .linkLogin, .LinkList{
+        color: #1d4ed8; 
+        display: block; 
+        text-align: center; 
+        margin-top: 1rem; 
+      }
+
+      .linkRegister:hover, .linkLogin:hover{
+        text-decoration: underline;
+      }
+
+      .divList{
+        max-width: 42rem; 
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 2.5rem; 
+        background-color: white;
+        padding: 2rem;
+        border: 1px solid #d1d5db;
+        border-radius: 0.375rem;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+      }
+
+      .ulList> * + * {
+        margin-top: 0.5rem;
+      }
+
+      .liList{
+        background-color: #f3f4f6;
+        padding: 1rem; 
+        border-radius: 0.375rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
