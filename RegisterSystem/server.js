@@ -12,8 +12,3 @@ app.use('/', routesPublic)
 app.use('/', auth, routesPrivate)
 
 app.listen(1111, () => console.log('server running'))
-
-// Username: gbrsouza
-// Password: 7fPeGQBObqCGVK7a
-
-// mongodb+srv://gbrsouza:7fPeGQBObqCGVK7a@grs.jzuhy.mongodb.net/?retryWrites=true&w=majority&appName=grs
